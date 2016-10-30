@@ -1,0 +1,18 @@
+whole
+has DC bias due to electronic difference between tape deck and sound card
+
+whole
+right channel louder than left channel
+
+4:20
+distortion
+
+14:58
+click
+
+32:58
+noisy tape cut
+
+33:25
+distortion
+

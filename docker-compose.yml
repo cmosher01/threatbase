@@ -1,0 +1,9 @@
+---
+version: '2'
+services:
+  threatbase:
+    build: .
+    ports:
+      - '8080:80'
+    volumes:
+      - ~/docker/wildfly/deployments/threatbase.war:/home/app/webapp/static:ro
