@@ -21,7 +21,8 @@ def _read_db(showid, dbtype):
 
 
 def _read_sh(showid):
-    showdate = '19{year}-{month}-{day}'.format(year=showid[0:2], month=showid[2:4], day=showid[4:6])
+    d6 = showid[-6:]
+    showdate = '19{year}-{month}-{day}'.format(year=d6[0:2], month=d6[2:4], day=d6[4:6])
 
     with open(_dbname(showid, 'sh')) as f:
         band = f.readline().strip()
