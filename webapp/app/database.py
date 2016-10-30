@@ -4,8 +4,11 @@ import itertools
 
 
 
-def _dbname(showid, dbtype):
-    return 'app/database/19{showid}/{showid}{dbtype}.txt'.format(showid=showid, dbtype=dbtype)
+def _build_dbpath(root_path, showid):
+    return '{root_path}/database/19{showid}/{showid}'.format(root_path=root_path, showid=showid)
+
+def _dbname(dbpath, dbtype):
+    return '{dbpath}{dbtype}.txt'.format(dbpath=dbpath, dbtype=dbtype)
 
 
 
@@ -76,12 +79,13 @@ def _read_tr(showid):
 
 
 
-def read_show(showid):
+def read_show(root_path, showid):
+    dbpath = _build_dbpath(root_path, showid)
     return {
-        'title' : _read_sh(showid),
-        'info'  : _read_db(showid, 'in'),
-        'ident' : _read_db(showid, 'id'),
-        'chain' : _read_ch(showid),
-        'tracks': _read_tr(showid),
-        'edits' : _read_ed(showid)
+        'title' : _read_sh(dbpath),
+        'info'  : _read_db(dbpath, 'in'),
+        'ident' : _read_db(dbpath, 'id'),
+        'chain' : _read_ch(dbpath),
+        'tracks': _read_tr(dbpath),
+        'edits' : _read_ed(dbpath)
     }
