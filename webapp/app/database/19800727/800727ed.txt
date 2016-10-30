@@ -1,0 +1,69 @@
+whole
+has hiss from this cassette tape
+(Cool Edit 2000) 0:00.1-0:02.5 get tape hiss noise profile @8192FFT, reduce noise 100% (precision 9, smooth 3)
+3:11-3:58
+too loud
+amplify: -2 dB
+0:00-3:11
+too soft
+compress 999:1 &gt; -9.6dB &gt; flat + gain .9 dB, amplify: 5.1 dB
+whole
+needs centering
+amplify: use "Center Wave" profile
+whole
+rumble (from some prev tape deck)
+0:02.7-0:04.16 get rumble noise profile @8192FFT, reduce noise 100% (precision 9, smooth 3)
+whole
+left channel too soft
+(Sound Forge 6.0) channel converter: new L &lt;-- 33%L+68%R; new R &lt;-- 0%L+80%R
+whole
+muddy, not enough treble
+graphic EQ: (approx:) -inf &gt; 50Hz &gt; flat &gt; 130Hz &gt; -24dB &gt; 160Hz &gt; flat &gt; 1.1kHz &gt; (rise to)+7dB &gt; 7.7kHz &gt; -inf, compress: inf:1 &gt; -5dB (no auto gain)
+0:27
+drops out
+use envelope to amplify
+2:44
+clicks (sounds like original tape recorder stopped and started)
+compress inf:1 &gt; -35dB
+4:49-4:50
+solo snare too loud
+use envelope to attenuate
+5:30-5:31
+solo snare too loud
+use envelope to attenuate
+7:50-7:53
+base drum too loud
+compress 2:1 &gt; -15dB
+8:18-8:20
+treble drops
+use graphic EQ
+12:47-12:52
+bass drum and snare too loud
+compress 2:1 &gt; -15dB
+14:21-14:27
+base drum too loud
+compress 1.5:1 &gt; -15dB
+18:01
+first two guitar notes too loud
+compress 1.5:1 &gt; -15dB
+23:37-23:39
+bass drum too loud
+compress 3:1 &gt; -13dB
+23:39-23:40
+first guitar note too loud
+compress 1.5:1 &gt; -15dB
+25:45-25:46
+three bass drum beats too loud
+compress 3:1 &gt; -20dB
+25:46-25:46
+first snare beat too loud
+compress 1.5:1 &gt; -20dB
+27:26-27:27
+beginning of song too loud
+compress 1.5:1 &gt; -15dB
+29:50-29:50
+first guitar note too loud
+compress 1.5:1 &gt; -15dB
+32:38-32:56
+treble drops out
+use graph EQ

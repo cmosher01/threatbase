@@ -1,0 +1,87 @@
+whole
+has DC bias due to electronic difference between tape deck and sound card
+(Sound Forge 6.0) DC Offset: auto detect (from whole wave) and remove
+whole
+too fast (E sounds like F)
+resample @ 46722 Hz, high accuracy
+whole
+right channel about 5 samples later than left channel
+remove 5 samples from beginning of right channel
+12:04.540-12:04.593
+clipping
+hand-draw curve top
+11:07.422-end
+left ~ 1.2 dB louder right
+channel converter: left = 87% of left
+8:16.555-8:20.400
+right volume drops
+right +10 dB
+8:22.383-8:33.009
+right volume fluctuates
+use fade to amplify right channel
+8:50.898-11:07.422
+right 1 dB softer
+channel converter: right = 113% of right
+9:00.832,9:02.820,10:23.259,10:26.958,10:26.987,10:29.577,10:52.772,10:52.798,10:52.836
+clipping
+draw curve tops
+8:26.395-13:25.860
+~ 1 dB louder than following music
+channel converter: both = 87% of both
+beginning-0:07.859
+too soft
+channel converter: l = 126% of left, r = 142% of r
+0:07.859-0:16.027
+left gets louder then softer; right gets softer, louder, then softer
+use fader to fix each cahnnel individually
+0:50.071-1:10.440
+too soft
++ 2 dB
+4:24.950-8:26.395
+left is 1 dB louder than right
+- 1 dB let
+13:25.860-15:21.164
+left 1 dB louder than right
+- 1 dB left
+15:21.164-end
+left 0.3 dB louder than right
+- 0.3 dB left
+22:06.009-22:17.489
+left is 1 dB too loud
+- 1 dB left
+20:51.706-21:30.988
+left 1.8 dB too soft
++ 1.8 dB left
+20:53.611-21:34.466
+right is 1.8 dB too soft
++ 1.8 dB right
+0:39.319-0:40.965
+2 dB too loud
+- 2 dB both
+whole
+tape hiss and other noise
+noise reduction (mode 3, 95 att/rel, 
+whole
+loud spikes
+hard limiter -5 dB
+18:50.283
+missing
+(nothing)
+whole
+has crackling sounds
+click removal: 20, 8, 1, med
+whole
+loud spikes (from click removal)
+hard limiter -5 dB (again)
+whole
+needs normalization
+normalize peak level to 0 dB
+beginning-0:00.009
+silence
+remove
+26:50.453-end
+silence
+remove
+26:48-end
+fades out
+amplify to remove fade
