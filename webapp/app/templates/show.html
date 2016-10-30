@@ -10,7 +10,7 @@
     <p>{{ show.info }}</p>
     <h2>Identification</h2>
     <p>{{ show.ident }}</p>
-    <h2>Individual Tracks</h2>
+    <h2>Tracks</h2>
     <table class="showtable">
       <thead>
         <tr><th>song/quote</th><th>file</th></tr>
@@ -32,18 +32,20 @@
         {% endfor %}
       </tbody>
     </table>
-    <h2>Edits</h2>
-    <p>The segment times are mm:ss from the beginning of the entire show.</p>
-    <table class="editstable">
-      <thead>
-        <tr><th>segment</th><th>problem</th><th>editing</th></tr>
-      </thead>
-      <tbody>
-        {% for edit in show.edits %}
-          <tr><td>{{ edit.time }}</td><td>{{ edit.prob }}</td><td>{{ edit.edit }}</td></tr>
-        {% endfor %}
-      </tbody>
-    </table>
+    {% if show.edits %}
+      <h2>Edits</h2>
+      <p>The segment times are mm:ss from the beginning of the entire show.</p>
+      <table class="editstable">
+        <thead>
+          <tr><th>segment</th><th>problem</th><th>editing</th></tr>
+        </thead>
+        <tbody>
+          {% for edit in show.edits %}
+            <tr><td>{{ edit.time }}</td><td>{{ edit.prob }}</td><td>{{ edit.edit }}</td></tr>
+          {% endfor %}
+        </tbody>
+      </table>
+    {% endif %}
     <p>corrections/questions: email <a href="mailto:cmosher01@gmail.com">cmosher01@gmail.com</a></p>
   </body>
 </html>
