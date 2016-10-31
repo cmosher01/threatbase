@@ -70,7 +70,6 @@ def _read_tr(showid):
             track = {}
             track['song_or_quote'] = song_or_quote
             track['td_class'] = td_class
-            track['audio_link'] = '[coming soon]'
             track['audio_file'] = '[coming soon]'
             tracks.append(track)
             s = f.readline()

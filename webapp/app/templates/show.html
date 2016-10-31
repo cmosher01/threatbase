@@ -13,13 +13,13 @@
     <h2>Tracks</h2>
     <table class="showtable">
       <thead>
-        <tr><th>song/quote</th><th>file</th></tr>
+        <tr><th>song/quote</th><th>audio</th></tr>
       </thead>
       <tbody>
         {% for track in show.tracks %}
           <tr>
             <td class="{{ track.td_class }}">{{ track.song_or_quote }}</td>
-            <td><a href="{{ track.audio_link }}">{{ track.audio_file }}</a></td>
+            <td>{{ track.audio_file }}</td>
           </tr>
         {% endfor %}
       </tbody>
