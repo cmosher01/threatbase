@@ -12,6 +12,7 @@
     <p>{{ show.ident }}</p>
     {% if show.audio.orig_file %}
       <h2>Audio</h2>
+      (original recording, without any editing)
       <audio controls>
           <source src="/audio/threatbase/{{ show.audio.orig_file }}.m4a" type='audio/mp4; codecs="mp4a.40.2"'>
           <source src="/audio/threatbase/{{ show.audio.orig_file }}.mp3" type='audio/mpeg; codecs="mp3"'>
