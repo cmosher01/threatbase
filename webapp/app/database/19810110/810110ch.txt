@@ -5,6 +5,6 @@ unknown
 c. 2000
 Maxell-XLII 90-minute cassette tape
 2003/09/13
-digitized (JVC TD-V661 Cassette Deck &gt; Sound Blaster AWE 64 &gt; Sound Forge 6.0 @ 44100 Hz, 16-bit, stereo)
+digitized (JVC TD-V661 Cassette Deck > Sound Blaster AWE 64 > Sound Forge 6.0 @ 44100 Hz, 16-bit, stereo)
 [in progress]
 edited

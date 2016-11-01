@@ -5,7 +5,7 @@ unknown
 c. 2000
 Maxell-XLII 90-minute cassette tape
 2003/08/27
-digitized (JVC TD-V661 Cassette Deck &gt; Sound Blaster AWE 64 &gt; Cool Edit 2000 @ 44100 Hz, 16-bit, stereo)
+digitized (JVC TD-V661 Cassette Deck > Sound Blaster AWE 64 > Cool Edit 2000 @ 44100 Hz, 16-bit, stereo)
 2003/08/28
 edited
 2003/08/31

@@ -12,7 +12,7 @@ left channel 9 samples too early
 remove 9 samples from beginning of left channel
 3:26.835-8:38.924
 right channel 1dB too loud
-channel mixer: right &lt;-- 90% of right, left &lt;-- 100% left
+channel mixer: right <-- 90% of right, left <-- 100% left
 00:10.343-00:10.365
 left channel drops out
 copy from right channel
@@ -33,7 +33,7 @@ left drops out
 use envelope to amplify evenly
 08:38.924-end
 right channel 1 dB too soft
-r &lt;-- 115% r
+r <-- 115% r
 09:32.293
 slight clip caused by previous amp
 hand-draw top of curve
