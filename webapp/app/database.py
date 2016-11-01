@@ -15,8 +15,12 @@ def _dbname(dbpath, dbtype):
 
 
 def _read_db(showid, dbtype):
-    with open(_dbname(showid, dbtype)) as f:
-        return f.read()
+    s = ''
+    try:
+        with open(_dbname(showid, dbtype)) as f:
+            s = f.read()
+    finally:
+        return s
 
 
 
@@ -33,6 +37,17 @@ def _read_sh(showid):
         title = title+' @ '+venue
 
     return title
+
+
+
+def _read_au(showid):
+    audio = {}
+    try:
+        with open(_dbname(showid, 'au')) as f:
+            audio['orig_file'] = f.readline().strip()
+            audio['orig_log'] = f.readline().strip()
+    finally:
+        return audio
 
 
 
@@ -70,7 +85,7 @@ def _read_tr(showid):
             track = {}
             track['song_or_quote'] = song_or_quote
             track['td_class'] = td_class
-            track['audio_file'] = '[coming soon]'
+            track['offset'] = '[coming soon]'
             tracks.append(track)
             s = f.readline()
     return tracks
@@ -83,6 +98,7 @@ def read_show(root_path, showid):
     dbpath = _build_dbpath(root_path, showid)
     return {
         'title' : _read_sh(dbpath),
+        'audio' : _read_au(dbpath),
         'info'  : _read_db(dbpath, 'in'),
         'ident' : _read_db(dbpath, 'id'),
         'chain' : _read_ch(dbpath),

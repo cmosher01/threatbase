@@ -10,6 +10,16 @@
     <p>{{ show.info }}</p>
     <h2>Identification</h2>
     <p>{{ show.ident }}</p>
+    {% if show.audio.orig_file %}
+      <h2>Audio</h2>
+      <audio controls>
+          <source src="/audio/threatbase/{{ show.audio.orig_file }}.m4a" type='audio/mp4; codecs="mp4a.40.2"'>
+          <source src="/audio/threatbase/{{ show.audio.orig_file }}.mp3" type='audio/mpeg; codecs="mp3"'>
+          <source src="/audio/threatbase/{{ show.audio.orig_file }}.oga" type='audio/ogg; codecs="vorbis"'>
+          [Audio player not supported by your browser. It works in Chrome.]
+      </audio>
+      (<a href="/audio/threatbase/{{ show.audio.orig_log }}">compression log file</a>)
+    {% endif %}
     <h2>Tracks</h2>
     <table class="showtable">
       <thead>
@@ -19,7 +29,7 @@
         {% for track in show.tracks %}
           <tr>
             <td class="{{ track.td_class }}">{{ track.song_or_quote }}</td>
-            <td>{{ track.audio_file }}</td>
+            <td>{{ track.offset }}</td>
           </tr>
         {% endfor %}
       </tbody>
