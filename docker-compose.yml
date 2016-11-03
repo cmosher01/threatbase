@@ -6,4 +6,4 @@ services:
     ports:
       - '8080:80'
     volumes:
-      - ~/docker/wildfly/deployments/threatbase.war:/home/app/webapp/static:ro
+      - ./static:/home/app/webapp/static:ro
