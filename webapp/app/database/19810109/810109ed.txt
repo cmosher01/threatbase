@@ -26,7 +26,7 @@ copy from right channel
 left channel noise and drop out
 copy from right channel
 00:09.966-00:10.030
-right channel srops out
+right channel drops out
 use envelope amplify evenly
 00:10.552-00:10.590
 left drops out
