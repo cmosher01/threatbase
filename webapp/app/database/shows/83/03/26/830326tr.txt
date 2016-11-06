@@ -1,0 +1,3 @@
+speaker
+[Shut down after playing only 6 songs.]
+.
