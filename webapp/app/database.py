@@ -1,5 +1,6 @@
+import glob
+import os
 import itertools
-
 
 
 
@@ -177,6 +178,16 @@ def _fill_in_show_details_for_list(root_path, shows):
         show['other_bands'] = _read_lines_as_csv(dbpath, 'ob')
         show['recorded'] = _read_db(dbpath, 'av').strip()
 
+def _find_images(root_path, showid):
+    images = []
+    yy = showid[0:2]
+    mm = showid[2:4]
+    dd = showid[4:6]
+    pat = '{root_path}/../static/shows/flyers/19{yy}-{mm}-{dd}*'.format(root_path=root_path, yy=yy, mm=mm, dd=dd)
+    for file in glob.glob(pat):
+        images.append('../../shows/flyers/'+os.path.basename(file))
+    return images
+
 
 
 
@@ -188,6 +199,7 @@ def read_show(root_path, showid):
         'audio' : _read_au(dbpath),
         'info'  : _read_db(dbpath, 'in'),
         'ident' : _read_db(dbpath, 'id'),
+        'images': _find_images(root_path, showid),
         'chain' : _read_ch(dbpath),
         'tracks': _read_tr(dbpath),
         'edits' : _read_ed(dbpath)

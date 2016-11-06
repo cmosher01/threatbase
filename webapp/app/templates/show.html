@@ -23,6 +23,12 @@
       </audio>
       (<a href="/audio/threatbase/{{ show.audio.orig_log }}">compression log file</a>)
     {% endif %}
+    {% if show.images %}
+      <h2>Flyers</h2>
+      {% for image in show.images %}
+        <a href="{{ image }}"><img class="flyer" src="{{ image }}" alt="{{ image }}"></a>
+      {% endfor %}
+    {% endif %}
     {% if show.tracks %}
       <h2>Tracks</h2>
       <table class="showtable">
