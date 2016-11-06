@@ -50,8 +50,10 @@ def _read_lines_as_csv(showid, dbtype):
 
 
 
-def _read_sh(showid):
-    showdate = _format_show_id_to_date(showid[-6:])
+def _read_title(showid):
+    showdate = _read_db(showid, 'dt').strip()
+    if not showdate:
+        showdate = _format_show_id_to_date(showid[-6:])
 
     with open(_dbname(showid, 'sh')) as f:
         band = f.readline().strip()
@@ -182,7 +184,7 @@ def _fill_in_show_details_for_list(root_path, shows):
 def read_show(root_path, showid):
     dbpath = _build_dbpath(root_path, showid)
     return {
-        'title' : _read_sh(dbpath),
+        'title' : _read_title(dbpath),
         'audio' : _read_au(dbpath),
         'info'  : _read_db(dbpath, 'in'),
         'ident' : _read_db(dbpath, 'id'),
