@@ -8,4 +8,4 @@ def _show(id):
 
 @application.route('/shows/<id>')
 def _shows(id):
-    return flask.render_template('shows.html', show=database.read_shows(application.root_path, id))
+    return flask.render_template('shows.html', shows=database.read_shows(application.root_path, id))

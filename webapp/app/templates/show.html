@@ -8,8 +8,10 @@
   <body>
     <h1>{{ show.title }}</h1>
     <p>{{ show.info }}</p>
-    <h2>Identification</h2>
-    <p>{{ show.ident }}</p>
+    {% if show.ident %}
+      <h2>Identification</h2>
+      <p>{{ show.ident }}</p>
+    {% endif %}
     {% if show.audio.orig_file %}
       <h2>Audio</h2>
       (original recording, without any editing)
@@ -21,28 +23,31 @@
       </audio>
       (<a href="/audio/threatbase/{{ show.audio.orig_log }}">compression log file</a>)
     {% endif %}
-    <h2>Tracks</h2>
-    <table class="showtable">
-      <thead>
-        <tr><th>song/quote</th><th>audio</th></tr>
-      </thead>
-      <tbody>
-        {% for track in show.tracks %}
-          <tr>
-            <td class="{{ track.td_class }}">{{ track.song_or_quote }}</td>
-            <td>{{ track.offset }}</td>
-          </tr>
-        {% endfor %}
-      </tbody>
-    </table>
-    <h2>Chain</h2>
-    <table class="editstable">
-      <tbody>
-        {% for ln in show.chain %}
-          <tr><td>{{ ln.date }}</td><td>{{ ln.desc }}</td></tr>
-        {% endfor %}
-      </tbody>
-    </table>
+    {% if show.tracks %}
+      <h2>Tracks</h2>
+      <table class="showtable">
+        <thead>
+          <tr><th>song/quote</th></tr>
+        </thead>
+        <tbody>
+          {% for track in show.tracks %}
+            <tr>
+              <td class="{{ track.td_class }}">{{ track.song_or_quote }}</td>
+            </tr>
+          {% endfor %}
+        </tbody>
+      </table>
+    {% endif %}
+    {% if show.chain %}
+      <h2>Chain</h2>
+      <table class="editstable">
+        <tbody>
+          {% for ln in show.chain %}
+            <tr><td>{{ ln.date }}</td><td>{{ ln.desc }}</td></tr>
+          {% endfor %}
+        </tbody>
+      </table>
+    {% endif %}
     {% if show.edits %}
       <h2>Edits</h2>
       <p>The segment times are mm:ss from the beginning of the entire show.</p>
@@ -57,6 +62,6 @@
         </tbody>
       </table>
     {% endif %}
-    <p>corrections/questions: email <a href="mailto:cmosher01@gmail.com">cmosher01@gmail.com</a></p>
+    <p>additions/corrections/questions, please email <a href="mailto:cmosher01@gmail.com">cmosher01@gmail.com</a></p>
   </body>
 </html>
