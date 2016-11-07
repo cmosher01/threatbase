@@ -185,7 +185,7 @@ def _find_images(root_path, showid):
     dd = showid[4:6]
     pat = '{root_path}/../static/shows/flyers/19{yy}-{mm}-{dd}*'.format(root_path=root_path, yy=yy, mm=mm, dd=dd)
     for file in glob.glob(pat):
-        images.append('../../shows/flyers/'+os.path.basename(file))
+        images.append('/threatbase/shows/flyers/'+os.path.basename(file))
     return images
 
 
