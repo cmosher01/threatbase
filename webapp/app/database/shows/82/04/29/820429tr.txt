@@ -41,7 +41,7 @@ Seeing Red
 .
 speaker
 Leave... leave it here. Leave it here. Give me [inaudible]. What's next?
-"Small Man, Big Mouth." Get us a better one, man. "Filler," "Stepping Stone."
+"Small Man, Big Mouth." Get us a better one, man. "Filler," "Steppin' Stone."
 .
 song
 Small Man, Big Mouth
@@ -113,5 +113,5 @@ speaker
 Bummer. Oh. [inaudible]
 .
 song
-Stepping Stone
+Steppin' Stone
 .

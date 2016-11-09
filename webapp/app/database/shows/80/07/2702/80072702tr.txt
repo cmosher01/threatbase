@@ -33,7 +33,7 @@ speaker
 ?. This is the first song we ever did.
 .
 song
-Stepping Stone
+Steppin' Stone
 .
 speaker
 .
