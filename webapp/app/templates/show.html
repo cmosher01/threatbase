@@ -7,11 +7,14 @@
   </head>
   <body>
     <h1>{{ show.title }}</h1>
+
     <p>{{ show.info }}</p>
+
     {% if show.ident %}
       <h2>Identification</h2>
       <p>{{ show.ident }}</p>
     {% endif %}
+
     {% if show.audio.orig_file %}
       <h2>Audio</h2>
       (original recording, without any editing)
@@ -23,51 +26,58 @@
       </audio>
       (<a href="/audio/threatbase/{{ show.audio.orig_log }}">compression log file</a>)
     {% endif %}
+
     {% if show.images %}
       <h2>Flyers</h2>
       {% for image in show.images %}
         <a href="{{ image }}"><img class="flyer" src="{{ image }}" alt="{{ image }}"></a>
       {% endfor %}
     {% endif %}
+
     {% if show.tracks %}
       <h2>Tracks</h2>
-      <table class="showtable">
-        <thead>
-          <tr><th>song/quote</th></tr>
-        </thead>
-        <tbody>
+      <div class="table">
+        <div class="thead">
+          <div class="tr">
+            <div class="td">song/quote</div>
+          </div>
+        </div>
+        <div class="tbody">
           {% for track in show.tracks %}
-            <tr>
-              <td class="{{ track.td_class }}">{{ track.song_or_quote }}</td>
-            </tr>
+            <div class="tr">
+              <div class="td {{ track.td_class }}">{{ track.song_or_quote }}</div>
+            </div>
           {% endfor %}
-        </tbody>
-      </table>
+        </div>
+      </div>
     {% endif %}
+
     {% if show.chain %}
       <h2>Chain</h2>
-      <table class="editstable">
-        <tbody>
+      <div class="table">
+        <div class="tbody">
           {% for ln in show.chain %}
-            <tr><td>{{ ln.date }}</td><td>{{ ln.desc }}</td></tr>
+            <div class="tr"><div class="td">{{ ln.date }}</div><div class="td">{{ ln.desc }}</div></div>
           {% endfor %}
-        </tbody>
-      </table>
+        </div>
+      </div>
     {% endif %}
+
     {% if show.edits %}
       <h2>Edits</h2>
       <p>The segment times are mm:ss from the beginning of the entire show.</p>
-      <table class="editstable">
-        <thead>
-          <tr><th>segment</th><th>problem</th><th>editing</th></tr>
-        </thead>
-        <tbody>
+      <div class="table">
+        <div class="thead">
+          <div class="tr"><div class="td">segment</div><div class="td">problem</div><div class="td">editing</div></div>
+        </div>
+        <div class="tbody">
           {% for edit in show.edits %}
-            <tr><td>{{ edit.time }}</td><td>{{ edit.prob }}</td><td>{{ edit.edit }}</td></tr>
+            <div class="tr"><div class="td">{{ edit.time }}</div><div class="td">{{ edit.prob }}</div><div class="td">{{ edit.edit }}</div></div>
           {% endfor %}
-        </tbody>
-      </table>
+        </div>
+      </div>
     {% endif %}
+
     <p>additions/corrections/questions, please email <a href="mailto:cmosher01@gmail.com">cmosher01@gmail.com</a></p>
   </body>
 </html>
