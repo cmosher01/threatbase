@@ -20,6 +20,7 @@ RUN \
 
 RUN rm -f /etc/service/nginx/down
 RUN rm /etc/nginx/sites-enabled/default
+RUN sed -i "s/worker_processes.*/worker_processes 1;/" /etc/nginx/nginx.conf
 COPY nginx.conf /etc/nginx/sites-enabled/
 
 WORKDIR /home/app
