@@ -58,12 +58,12 @@ speaker
 ?. How much are the drinks? A dollar. ?. 
 .
 song
-[unknown song] (bad start)
+At the Hop [Danny and the Juniors] (bad start)
 .
 speaker
 .
 song
-[unknown song]
+At the Hop [Danny and the Juniors]
 .
 speaker
 .
