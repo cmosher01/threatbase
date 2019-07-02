@@ -13,17 +13,17 @@ The Rozzlyn Rangers song was released on the 20 Years of Dischord box set.
 | DIS50 | DIS125 | demo |Song or Quote | take
 | -----:| ------ | ---- |------------- | ----
 |       |        |      |**I'm Sorry** | I
-|       |        |  A   |*Ian:* ???<BR>*Don:* The other song, take two.
-|       |        |  A   |*Ian:* Thank you.
+|       |        |  A   |    *Ian:* ???<BR>*Don:* The other song, take two.
+|       |        |  A   |    *Ian:* Thank you.
 |  t1   | d1 t14 |  *   |**I'm Sorry** | II
-|  t1   | d1 t14 |  *   |*Ian:* That's sounds... good ending.
-|       |        |  B   |[laughter] [inaudible talking]<BR>*Ian:* ... so close.<BR>*?:* California [?]
+|  t1   | d1 t14 |  *   |    *Ian:* That's sounds... good ending.
+|       |        |  B   |    [laughter] [inaudible talking]<BR>*Ian:* ... so close.<BR>*?:* California [?]
 |       |        |  B   |**You're Not Fooling Me** | I
 |       |        |  C   |**You're Not Fooling Me** [bad start] | II
-|  t2   |        |  C   |*Ian:* Go again.
-|       |        |  C   |[bass]<BR>*Ian:* Go...
-|       |        |  C   |**[cut]**
-|       |        |  C   |*Don:* Take three. It's rolling.<BR>*Ian:* Go.
+|  t2   |        |  C   |    *Ian:* Go again.
+|       |        |  C   |    [bass]<BR>*Ian:* Go...
+|       |        |  C   |    **[cut]**
+|       |        |  C   |    *Don:* Take three. It's rolling.<BR>*Ian:* Go.
 |  t2   |        |  *   |**You're Not Fooling Me** | III
 |       | d3 t11 |      |**Rozzlyn Rangers** | I
 
