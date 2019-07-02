@@ -1,0 +1,16 @@
+---
+title: Minor Threat 1980-11
+layout: default
+permalink: /sessions/198011/
+---
+
+## Minor Threat 1980-11
+
+I've found some unknown versions of early Minor Threat session recordings
+(not the versions released on the old album, nor on the more recent "First Demo Tape" album).
+I believe these are from the session recorded in Lyle's mother's basement, the session that
+also included "Understand" released on Dischord 125.
+
+Bottled Violence      | <audio controls src="https://mosher.mine.nu/audio/threatbase/198011/Bottled Violence.mp3">Cannot play audio.</audio>
+I Don't Wanna Hear It | <audio controls src="https://mosher.mine.nu/audio/threatbase/198011/I Don't Wanna Hear It.mp3">Cannot play audio.</audio>
+Stand Up              | <audio controls src="https://mosher.mine.nu/audio/threatbase/198011/Stand Up.mp3">Cannot play audio.</audio>

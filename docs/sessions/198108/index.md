@@ -1,0 +1,48 @@
+---
+title: Minor Threat 1981-08
+layout: default
+permalink: /sessions/198108/
+---
+
+## Minor Threat 1981-08
+
+I've found a version of Minor Threat's "Guilty of Being White" that is not a known released or demo version.
+I have yet to be able to determine its origin.
+It sounds as if it was recorded in a studio, but it is not the version released on the old album, nor
+on the more recent "First Demo Tape" album.
+
+<audio id="guilty" controls src="https://mosher.mine.nu/audio/threatbase/198108/guilty.mp3">Cannot play audio.</audio>
+
+Listen in the second verse for
+<button type="button" onclick="jump_to(31.5)">You blame me</button>
+(at 0:31) where there is a distinct pause before "me" not found in any other known version.
+
+Also note he says
+<button type="button" onclick="jump_to(55.9)">19 years of my time</button>
+(at 0:56) instead of "18 years," as on some older performances of this song.
+
+This file was encoded as follows:
+
+    $ lame -h -b 320 /home/samba/minor_threat_KEEP/demos_extract_guilty_original_KEEP.wav guilty.mp3
+    LAME 3.97 32bits (http://www.mp3dev.org/)
+    Using polyphase lowpass filter, transition band: 20094 Hz - 20627 Hz
+    Encoding /home/samba/minor_threat_KEEP/demos_extract_guilty_original_KEEP.wav
+          to guilty.mp3
+    Encoding as 44.1 kHz 320 kbps j-stereo MPEG-1 Layer III (4.4x) qval=2
+        Frame          |  CPU time/estim | REAL time/estim | play/CPU |    ETA
+      3131/3131  (100%)|    0:55/    0:55|    0:57/    0:57|   1.4801x|    0:00
+    ------------------------------------------------------------------------------------------------
+       kbps        LR    MS  %     long switch short %
+      320.0      100.0   0.0        99.8   0.1   0.1
+    Writing LAME Tag...done
+    ReplayGain: -7.3dB
+
+
+<script>
+    function jump_to(secs) {
+        var guilty = document.getElementById("guilty");
+        guilty.pause();
+        guilty.currentTime = secs;
+        guilty.play();
+    }
+</script>

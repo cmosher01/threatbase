@@ -8,8 +8,8 @@ permalink: /sessions/
 
 | date | songs | band | engineer | location
 | ---- | ----- | ---- | -------- | --------
-| 1979/07? or 1979/08? | ? | Slinkees | Mark Sullivan | Mark Sullivan's garage
-| 1979/07? or 1979/08? | [At The Hop, Adventure, So Long UK, Louie Louie, Go To Alaska, I Drink Milk, Trans Am, No Fun](197908/) | Slinkees | Andy Nelson | Andy Nelson’s basement
+| 1979/07? | ? | Slinkees | Mark Sullivan | Mark Sullivan's garage
+| 1979/08? | [At The Hop, Adventure, So Long UK, Louie Louie, Go To Alaska, I Drink Milk, Trans Am, No Fun](197908/) | Slinkees | Andy Nelson | Andy Nelson’s basement
 | 1979/12? or 1980/01? | Adventure (Dischord 100) | Teen Idles | Andy Nelson | Andy Nelson’s basement
 | 1980/02 | Teen Idles, Sneakers, Trans Am (Dischord 100) | Teen Idles | Steve Carr | Hit and Run
 | 1980/04 | Fiorucci Nightmare, Getting in My Way (Dischord 100) I Drink Milk, Commie Song, No Fun (Dischord 7) Get Up and Go, Deadhead (Dischord 125) | Teen Idles | Steve Carr | Hit and Run

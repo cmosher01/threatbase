@@ -1,0 +1,37 @@
+---
+title: Slinkees 1979-08?
+layout: default
+permalink: /sessions/197908/
+---
+
+## Slinkees 1979-08?
+
+Slinkees demo tape circa August 1979
+
+Original recording, without any editing:
+
+<audio id="audio" controls>
+<source src="https://mosher.mine.nu/audio/threatbase/197908xx/197908xxor.m4a" type='audio/mp4; codecs="mp4a.40.2"'>
+<source src="https://mosher.mine.nu/audio/threatbase/197908xx/197908xxor.mp3" type='audio/mpeg; codecs="mp3"'>
+<source src="https://mosher.mine.nu/audio/threatbase/197908xx/197908xxor.oga" type='audio/ogg; codecs="vorbis"'>
+[Audio player not supported by your browser. It works in Chrome.]
+</audio>
+
+Jump to beginning of track:
+* <button type="button" onclick="jump_to(   0)">At the Hop [Danny and the Juniors]</button>
+* <button type="button" onclick="jump_to( 113)">Adventure</button>
+* <button type="button" onclick="jump_to( 239)">So Long, UK</button>
+* <button type="button" onclick="jump_to( 371)">Louie Louie [The Kingsmen]</button>
+* <button type="button" onclick="jump_to( 491)">Go to Alaska</button>
+* <button type="button" onclick="jump_to( 608)">I Drink Milk</button>
+* <button type="button" onclick="jump_to( 690)">Trans Am</button>
+* <button type="button" onclick="jump_to( 833)">No Fun [The Stooges]</button>
+
+<script>
+function jump_to(secs) {
+    var audio = document.getElementById("audio");
+    audio.pause();
+    audio.currentTime = secs;
+    audio.play();
+}
+</script>
