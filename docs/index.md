@@ -1,5 +1,7 @@
 ---
+title: Threat Base
 layout: default
+permalink: /
 ---
 
 ## on vinyl
