@@ -4,6 +4,8 @@ layout: default
 permalink: /
 ---
 
+# The Complete Minor Threat Database
+
 ## on stage
 
 * [1979 Slinkees](shows/slinkees/)
