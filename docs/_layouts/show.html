@@ -28,15 +28,17 @@ this page:
 all bands:
 <ul>
 {% for i in site.bands %}
-<li><a href="{{i.id | prepend:site.baseurl}}">{{ i.id }}</a></li>
+<li><a href="{{i.id | relative_url}}">{{ i.id }}</a></li>
 {% endfor %}
 </ul>
 
 all shows:
 <ul>
 {% for i in site.shows %}
-<li><a href="{{i.id | prepend:site.baseurl}}">{{ i.id }}</a></li>
+<li><a href="{{i.id | relative_url}}">{{ i.id }}</a></li>
 {% endfor %}
 </ul>
+
+
 
 </small>

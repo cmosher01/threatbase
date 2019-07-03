@@ -1,7 +1,6 @@
 ---
 title: Sessions
 layout: default
-permalink: /sessions/
 ---
 
 ## recording sessions
@@ -9,16 +8,16 @@ permalink: /sessions/
 | date | songs | band | engineer | location
 | ---- | ----- | ---- | -------- | --------
 | 1979/07?   | ? | Slinkees | Mark Sullivan | Mark Sullivan’s garage
-| 1979/08?   | [At The Hop, Adventure, So Long UK, Louie Louie, Go To Alaska, I Drink Milk, Trans Am, No Fun](197908/) | Slinkees | Andy Nelson | Andy Nelson’s basement
+| 1979/08?   | [At The Hop, Adventure, So Long UK, Louie Louie, Go To Alaska, I Drink Milk, Trans Am, No Fun](197908) | Slinkees | Andy Nelson | Andy Nelson’s basement
 | 1979/12?   | Adventure (Dischord 100) | Teen Idles | Andy Nelson | Andy Nelson’s basement
 | 1980/02    | Teen Idles, Sneakers, Trans Am (Dischord 100) | Teen Idles | Steve Carr | Hit and Run
 | 1980/04    | Fiorucci Nightmare, Getting in My Way (Dischord 100) I Drink Milk, Commie Song, No Fun (Dischord 7) Get Up and Go, Deadhead (Dischord 125) | Teen Idles | Steve Carr | Hit and Run
 | 1980/08    | Teen Idles, Sneakers, Get Up and Go, Deadhead, Fleeting Fury, Fiorucci Nightmare, Getting in My Way (Dischord 1) [one other song?] | Teen Idles | Don Zientara | Inner Ear
-| 1980/11    | [Understand, I Don’t Wanna Hear It [different lyrics], Stand Up, Bottled Violence](198011/) | Minor Threat | ? | basement, Lyle’s mom’s house
+| 1980/11    | [Understand, I Don’t Wanna Hear It [different lyrics], Stand Up, Bottled Violence](198011) | Minor Threat | ? | basement, Lyle’s mom’s house
 | 1981/03    | Minor Threat, Stand Up, Seeing Red, Bottled Violence, Small Man Big Mouth, Straight Edge, Guilty of Being White (“18 years”), I Don’t Wanna to Hear It (Dischord 140) | Minor Threat | Don Zientara | Inner Ear
 | 1981/04    | Filler, I Don’t Wanna Hear It, Seeing Red, Straight Edge, Small Man Big Mouth, Screaming at a Wall, Bottled Violence, Minor Threat, Stand Up, 12XU | Minor Threat | Don Zientara | Inner Ear
-| 1981/08    | In My Eyes, Out of Step, Guilty of Being White (“19 years”), [Guilty of Being White (“19 years”) take two](198108/), Stepping Stone | Minor Threat | Don Zientara | Inner Ear
-| 1981/11/13 | [I’m Sorry, You’re Not Fooling Me, Rozzlyn Rangers](19811113/) | Skewbald/Grand Union & Rozzlyn Rangers | Don Zientara | Inner Ear
+| 1981/08    | In My Eyes, Out of Step, Guilty of Being White (“19 years”), [Guilty of Being White (“19 years”) take two](198108), Stepping Stone | Minor Threat | Don Zientara | Inner Ear
+| 1981/11/13 | [I’m Sorry, You’re Not Fooling Me, Rozzlyn Rangers](19811113) | Skewbald/Grand Union & Rozzlyn Rangers | Don Zientara | Inner Ear
 | 1982/04    | Asshole Dub | Minor Threat | Don Zientara | Inner Ear
 | 1982/11    | Asshole, others? (background vocals) (Boycott Stabb album) | (Government Issue) | Don Zientara | Inner Ear
 | 1983/01    | Betray, It Follows, Think Again, Look Back, Sob Story, No Reason, Little Friend, Out of Step, Cashing In | Minor Threat | Don Zientara | Inner Ear

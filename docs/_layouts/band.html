@@ -6,15 +6,14 @@ layout: default
 <small>
 <table>
     {% for i in page.shows -%}
-        {% assign id = '/shows/' | append: i -%}
+        {% capture id %}/shows/{{i}}{% endcapture %}
         {% assign show = site.shows | where: 'id', id | first -%}
         <tr>
-            <td>{{ show.title }}</td>
             <td>
-                <a href="{{id | prepend:site.baseurl}}">{{ show.venue }}</a>
+                <a href="{{id | relative_url}}">{{ show.title | default: id }}</a>
             </td>
             <td>
-                <a href="{{id | prepend:site.baseurl}}">{{id}}</a>
+                {{ show.venue | default: '[unknown]'}}
             </td>
         </tr>
     {% endfor -%}
@@ -40,14 +39,14 @@ this page:
 all bands:
 <ul>
 {% for i in site.bands %}
-<li><a href="{{i.id | prepend:site.baseurl}}">{{ i.id }}</a></li>
+<li><a href="{{i.id | relative_url}}">{{ i.id }}</a></li>
 {% endfor %}
 </ul>
 
 all shows:
 <ul>
 {% for i in site.shows %}
-<li><a href="{{i.id | prepend:site.baseurl}}">{{ i.id }}</a></li>
+<li><a href="{{i.id | relative_url}}">{{ i.id }}</a></li>
 {% endfor %}
 </ul>
 
