@@ -3,51 +3,20 @@ layout: default
 ---
 <h1>{{ page.title }}</h1>
 
-<small>
 <table>
     {% for i in page.shows -%}
         {% capture id %}/shows/{{i}}{% endcapture %}
         {% assign show = site.shows | where: 'id', id | first -%}
         <tr>
-            <td>
-                <a href="{{id | relative_url}}">{{ show.title | default: id }}</a>
+            <td style="white-space: nowrap">
+                <a href="{{id | relative_url}}">{{ show.show_date | default: id }}</a>
             </td>
             <td>
-                {{ show.venue | default: '[unknown]'}}
+                {{ show.recorded | upcase }}
+            </td>
+            <td>
+                {{ show.venue | default: '[unknown]' }}
             </td>
         </tr>
     {% endfor -%}
 </table>
-</small>
-
-
-
-
-<hr>
-
-<small>
-this page:
-<table>
-<tbody>
-<tr><td>collection</td><td>{{page.collection}}</td></tr>
-<tr><td>ID</td><td>{{page.id}}</td></tr>
-<tr><td>URL</td><td>{{page.url}}</td></tr>
-<tr><td>path</td><td>{{page.path}}</td></tr>
-</tbody>
-</table>
-
-all bands:
-<ul>
-{% for i in site.bands %}
-<li><a href="{{i.id | relative_url}}">{{ i.id }}</a></li>
-{% endfor %}
-</ul>
-
-all shows:
-<ul>
-{% for i in site.shows %}
-<li><a href="{{i.id | relative_url}}">{{ i.id }}</a></li>
-{% endfor %}
-</ul>
-
-</small>

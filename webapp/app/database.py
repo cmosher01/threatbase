@@ -32,7 +32,7 @@ def _read_db(showid, dbtype):
         with open(_dbname(showid, dbtype)) as f:
             s = f.read()
     finally:
-        return s
+        return s.strip()
 
 
 
@@ -52,7 +52,7 @@ def _read_lines_as_csv(showid, dbtype):
 
 
 def _read_title(showid):
-    showdate = _read_db(showid, 'dt').strip()
+    showdate = _read_db(showid, 'dt')
     if not showdate:
         showdate = _format_show_id_to_date(showid[-6:])
 
@@ -91,7 +91,7 @@ def _read_ch(showid):
     chs = []
     try:
         with open(_dbname(showid, 'ch')) as f:
-            for date, desc in itertools.izip_longest(*[f]*2):
+            for date, desc in itertools.zip_longest(*[f]*2):
                 chs.append({'date': date.strip(), 'desc': desc.strip()})
     finally:
         return chs
@@ -102,7 +102,7 @@ def _read_ed(showid):
     eds = []
     try:
         with open(_dbname(showid, 'ed')) as f:
-            for time, prob, edit in itertools.izip_longest(*[f]*3):
+            for time, prob, edit in itertools.zip_longest(*[f]*3):
                 eds.append({'time': time.strip(), 'prob': prob.strip(), 'edit': edit.strip()})
     finally:
         return eds
@@ -170,13 +170,13 @@ def _read_show_ids(root_path, bandid):
 def _fill_in_show_details_for_list(root_path, shows):
     for show in shows['list']:
         dbpath = _build_dbpath(root_path, show['id'])
-        show['date'] = _read_db(dbpath, 'dt').strip()
-        if not show['date']:
-            show['date'] = _format_show_id_to_date(show['id'])
+        show['show_date'] = _read_db(dbpath, 'dt')
+        if not show['show_date']:
+            show['show_date'] = _format_show_id_to_date(show['id'])
         show['venue'] = _read_venue(dbpath)
         show['setlist'] = _read_tr_brief(dbpath)
         show['other_bands'] = _read_lines_as_csv(dbpath, 'ob')
-        show['recorded'] = _read_db(dbpath, 'av').strip()
+        show['recorded'] = _read_db(dbpath, 'av')
 
 def _find_images(root_path, showid):
     images = []

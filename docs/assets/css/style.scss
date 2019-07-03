@@ -1,0 +1,36 @@
+---
+# for minima after version 2.5
+---
+@import "minima";
+
+.wrapper {
+  max-width: 2048px
+}
+
+img.flyer {
+  width: 400px;
+  height: auto;
+}
+
+
+.song {
+  font-size: 130%;
+  font-weight: bold;
+}
+
+.speaker {
+  font-style: italic;
+  white-space: pre;
+}
+
+.num {
+  text-align: right;
+}
+
+.date {
+  white-space: nowrap;
+}
+
+.note {
+  font-size: .5em;
+}
