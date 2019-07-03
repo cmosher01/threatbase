@@ -3,6 +3,7 @@ email: cmosher01@gmail.com
 description: This is the new and improved database of Minor Threat.
 repository: https://github.com/cmosher01/threatbase
 github_username: cmosher01
+baseurl: /threatbase
 markdown: kramdown
 theme: minima
 collections:

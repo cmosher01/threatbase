@@ -11,10 +11,10 @@ layout: default
         <tr>
             <td>{{ show.title }}</td>
             <td>
-                <a href="{{id}}">{{ show.venue }}</a>
+                <a href="{{id | prepend:site.baseurl}}">{{ show.venue }}</a>
             </td>
             <td>
-                <a href="{{id}}">{{id}}</a>
+                <a href="{{id | prepend:site.baseurl}}">{{id}}</a>
             </td>
         </tr>
     {% endfor -%}
@@ -40,14 +40,14 @@ this page:
 all bands:
 <ul>
 {% for i in site.bands %}
-<li><a href="{{ i.id }}">{{ i.id }}</a></li>
+<li><a href="{{i.id | prepend:site.baseurl}}">{{ i.id }}</a></li>
 {% endfor %}
 </ul>
 
 all shows:
 <ul>
 {% for i in site.shows %}
-<li><a href="{{ i.id }}">{{ i.id }}</a></li>
+<li><a href="{{i.id | prepend:site.baseurl}}">{{ i.id }}</a></li>
 {% endfor %}
 </ul>
 

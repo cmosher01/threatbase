@@ -3,10 +3,40 @@ layout: default
 ---
 <h1>{{ page.title }}</h1>
 
+<p>venue: {{ page.venue }}</p>
+
+<p>
+identification:
+{{page.ident}}
+</p>
+
+
+
+<hr>
+
+<small>
+this page:
 <table>
 <tbody>
+<tr><td>collection</td><td>{{page.collection}}</td></tr>
 <tr><td>ID</td><td>{{page.id}}</td></tr>
 <tr><td>URL</td><td>{{page.url}}</td></tr>
 <tr><td>path</td><td>{{page.path}}</td></tr>
 </tbody>
 </table>
+
+all bands:
+<ul>
+{% for i in site.bands %}
+<li><a href="{{i.id | prepend:site.baseurl}}">{{ i.id }}</a></li>
+{% endfor %}
+</ul>
+
+all shows:
+<ul>
+{% for i in site.shows %}
+<li><a href="{{i.id | prepend:site.baseurl}}">{{ i.id }}</a></li>
+{% endfor %}
+</ul>
+
+</small>
