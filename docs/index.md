@@ -8,12 +8,12 @@ permalink: /
 
 ## on stage
 
-* [1979 Slinkees](shows/slinkees/)
-* [1979–1980 Teen Idles](shows/teenidles/)
-* 1980–1981 Minor Threat
-  [[I]](shows/minorthreat1/)
-  [[II]](shows/minorthreat2/)[<span style="position: relative; font-size: 67%; top: -0.8em;">[cf.]</span>](shows/mtour/)
-  [[III]](shows/minorthreat3/)
+* [Slinkees](bands/slinkees/)
+* [Teen Idles](bands/teenidles/)
+* Minor Threat
+  [[I]](bands/minorthreat1/)
+  [[II]](bands/minorthreat2/)[<span style="position: relative; font-size: 67%; top: -0.8em;">[cf.]</span>](extra/mtour/)
+  [[III]](bands/minorthreat3/)
 
 ## in studio
 

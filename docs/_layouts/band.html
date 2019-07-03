@@ -1,0 +1,54 @@
+---
+layout: default
+---
+<h1>{{ page.title }}</h1>
+
+<small>
+<table>
+    {% for i in page.shows -%}
+        {% assign id = '/shows/' | append: i -%}
+        {% assign show = site.shows | where: 'id', id | first -%}
+        <tr>
+            <td>{{ show.title }}</td>
+            <td>
+                <a href="{{id}}">{{ show.venue }}</a>
+            </td>
+            <td>
+                <a href="{{id}}">{{id}}</a>
+            </td>
+        </tr>
+    {% endfor -%}
+</table>
+</small>
+
+
+
+
+<hr>
+
+<small>
+this page:
+<table>
+<tbody>
+<tr><td>collection</td><td>{{page.collection}}</td></tr>
+<tr><td>ID</td><td>{{page.id}}</td></tr>
+<tr><td>URL</td><td>{{page.url}}</td></tr>
+<tr><td>path</td><td>{{page.path}}</td></tr>
+</tbody>
+</table>
+
+all bands:
+<ul>
+{% for i in site.bands %}
+<li><a href="{{ i.id }}">{{ i.id }}</a></li>
+{% endfor %}
+</ul>
+
+all shows:
+<ul>
+{% for i in site.shows %}
+<li><a href="{{ i.id }}">{{ i.id }}</a></li>
+{% endfor %}
+</ul>
+
+</small>

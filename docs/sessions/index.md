@@ -14,11 +14,11 @@ permalink: /sessions/
 | 1980/02    | Teen Idles, Sneakers, Trans Am (Dischord 100) | Teen Idles | Steve Carr | Hit and Run
 | 1980/04    | Fiorucci Nightmare, Getting in My Way (Dischord 100) I Drink Milk, Commie Song, No Fun (Dischord 7) Get Up and Go, Deadhead (Dischord 125) | Teen Idles | Steve Carr | Hit and Run
 | 1980/08    | Teen Idles, Sneakers, Get Up and Go, Deadhead, Fleeting Fury, Fiorucci Nightmare, Getting in My Way (Dischord 1) [one other song?] | Teen Idles | Don Zientara | Inner Ear
-| 1980/11    | [Understand (Dischord 125), I Don’t Wanna Hear It [different lyrics], Stand Up, Bottled Violence](198011/) | Minor Threat | ? | basement, Lyle’s mom’s house
+| 1980/11    | [Understand, I Don’t Wanna Hear It [different lyrics], Stand Up, Bottled Violence](198011/) | Minor Threat | ? | basement, Lyle’s mom’s house
 | 1981/03    | Minor Threat, Stand Up, Seeing Red, Bottled Violence, Small Man Big Mouth, Straight Edge, Guilty of Being White (“18 years”), I Don’t Wanna to Hear It (Dischord 140) | Minor Threat | Don Zientara | Inner Ear
 | 1981/04    | Filler, I Don’t Wanna Hear It, Seeing Red, Straight Edge, Small Man Big Mouth, Screaming at a Wall, Bottled Violence, Minor Threat, Stand Up, 12XU | Minor Threat | Don Zientara | Inner Ear
 | 1981/08    | In My Eyes, Out of Step, Guilty of Being White (“19 years”), [Guilty of Being White (“19 years”) take two](198108/), Stepping Stone | Minor Threat | Don Zientara | Inner Ear
-| 1981/11/13 | [I’m Sorry, You’re Not Fooling Me, Rozzlyn Rangers](19811113/) | Skewbald  aka Grand Union) (except last song by Rozzlyn Rangers) | Don Zientara | Inner Ear
+| 1981/11/13 | [I’m Sorry, You’re Not Fooling Me, Rozzlyn Rangers](19811113/) | Skewbald/Grand Union & Rozzlyn Rangers | Don Zientara | Inner Ear
 | 1982/04    | Asshole Dub | Minor Threat | Don Zientara | Inner Ear
 | 1982/11    | Asshole, others? (background vocals) (Boycott Stabb album) | (Government Issue) | Don Zientara | Inner Ear
 | 1983/01    | Betray, It Follows, Think Again, Look Back, Sob Story, No Reason, Little Friend, Out of Step, Cashing In | Minor Threat | Don Zientara | Inner Ear
@@ -33,7 +33,7 @@ permalink: /sessions/
 | June 1988  | Waiting Room, Bulldog Front, Bad Mouth, Burning, Give Me the Cure, Suggestion, Glue Man | Fugazi | Don Zientara | Inner Ear
 | Dec. 1988  | 6 songs | Fugazi | Don Zientara | Inner Ear
 | 1989/01/11 | “Peel Session” | Fugazi | |
-| 1989       | Merchandise,?,Break In,Song#1,Bad Mouth,?,And the Same,Waiting Room (demos) | Fugazi | |
+| 1989       | Merchandise, ?, Break In, Song #1, Bad Mouth, ?, And the Same, Waiting Room (demos) | Fugazi | |
 | Jul. 1989  | Song Number One, Joe Number One, Break-In | Fugazi | Don Zientara | Inner Ear
 | Sep. 1989  | 11 songs | Fugazi | |
 | Jan. 1991  | Exit Only, Reclamation, Nice New Outfit, Stacks, Latin Roots, Steady Diet, Long Division, Runaway Return, Polish, Dear Justice Letter, KYEO | Fugazi | Don Zientara | Inner Ear

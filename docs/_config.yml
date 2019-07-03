@@ -5,3 +5,19 @@ repository: https://github.com/cmosher01/threatbase
 github_username: cmosher01
 markdown: kramdown
 theme: minima
+collections:
+  bands:
+    # permalink: "/bands/:name/"
+    output: true
+  shows:
+    # permalink: "/shows/:name/"
+    output: true
+defaults:
+  - scope:
+      type: bands
+    values:
+      layout: band
+  - scope:
+      type: shows
+    values:
+      layout: show
