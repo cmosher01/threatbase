@@ -17,12 +17,12 @@ layout: default
   <p>
   (original recording, without any editing)
   <audio controls>
-      <source src="https://mosher.mine.nu/audio/threatbase/{{ page.audio.orig_file }}.m4a" type='audio/mp4; codecs="mp4a.40.2"'>
-      <source src="https://mosher.mine.nu/audio/threatbase/{{ page.audio.orig_file }}.mp3" type='audio/mpeg; codecs="mp3"'>
-      <source src="https://mosher.mine.nu/audio/threatbase/{{ page.audio.orig_file }}.oga" type='audio/ogg; codecs="vorbis"'>
+      <source src="{{ site.audio_baseurl }}{{ site.baseurl }}/{{ page.audio.orig_file }}.m4a" type='audio/mp4; codecs="mp4a.40.2"'>
+      <source src="{{ site.audio_baseurl }}{{ site.baseurl }}/{{ page.audio.orig_file }}.mp3" type='audio/mpeg; codecs="mp3"'>
+      <source src="{{ site.audio_baseurl }}{{ site.baseurl }}/{{ page.audio.orig_file }}.oga" type='audio/ogg; codecs="vorbis"'>
       [Audio player not supported by your browser. It works in Chrome.]
   </audio>
-  (<a href="https://mosher.mine.nu/audio/threatbase/{{ page.audio.orig_log }}">compression log file</a>)
+  (<a href="{{ site.audio_baseurl }}{{ site.baseurl }}/{{ page.audio.orig_log }}">compression log file</a>)
   </p>
 {% endif %}
 

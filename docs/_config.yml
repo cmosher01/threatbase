@@ -1,9 +1,11 @@
 title: Threat Base
 email: cmosher01@gmail.com
-description: This is the new and improved database of Minor Threat.
+description: Copyright © 1996–2019, Christopher Alan Mosher, Shelton, Connecticut, USA.
 repository: https://github.com/cmosher01/threatbase
 github_username: cmosher01
 baseurl: /threatbase
+audio_baseurl: https://mosher.mine.nu/audio
+image_baseurl: https://mosher.mine.nu/images
 markdown: kramdown
 theme: minima
 collections:
