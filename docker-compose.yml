@@ -1,9 +1,0 @@
----
-version: '2'
-services:
-  threatbase:
-    build: .
-    ports:
-      - '8080:80'
-    volumes:
-      - ./static:/home/app/webapp/static:ro
