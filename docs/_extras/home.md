@@ -28,5 +28,3 @@ permalink: /
 ## out there
 
 * [other misc. events](extras/events)
-
-<small>[about](extras/about)</small>
