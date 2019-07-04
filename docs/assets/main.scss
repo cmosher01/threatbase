@@ -6,10 +6,14 @@
   max-width: 2048px
 }
 
-img.flyer {
-  width: 400px;
-  height: auto;
+
+
+.sup {
+    position: relative;
+    font-size: 67%;
+    top: -0.8em;
 }
+
 
 
 .song {
@@ -19,17 +23,6 @@ img.flyer {
 
 .speaker {
   font-style: italic;
+  font-size: 85%;
   white-space: pre;
-}
-
-.num {
-  text-align: right;
-}
-
-.date {
-  white-space: nowrap;
-}
-
-.note {
-  font-size: .5em;
 }

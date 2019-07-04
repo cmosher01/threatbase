@@ -29,7 +29,8 @@ layout: default
 {% if page.images.size > 0 %}
   <h2>Flyers</h2>
   {% for image in page.images %}
-    <a href="{{ image }}"><img class="flyer" src="https://mosher.mine.nu/images/threatbase/{{ image }}" alt="{{ image }}"></a>
+    {% capture url %}https://mosher.mine.nu/images/threatbase/{{ image }}.ptif/full/400,/0/default.jpg{% endcapture %}
+    <a href="{{url}}"><img class="flyer" src="{{url}}" alt="{{ image }}"></a>
   {% endfor %}
 {% endif %}
 

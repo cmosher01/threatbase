@@ -11,6 +11,12 @@ collections:
     output: true
   shows:
     output: true
+  sessions:
+    output: true
+  discography:
+    output: true
+  extras:
+    output: true
 defaults:
   - scope:
       type: bands

@@ -1,6 +1,7 @@
 ---
 title: Threat Base
 layout: default
+permalink: /
 ---
 
 # The Complete Minor Threat Database
@@ -11,7 +12,7 @@ layout: default
 * [Teen Idles](bands/teenidles)
 * Minor Threat
   [[I]](bands/minorthreat1)
-  [[II]](bands/minorthreat2)[<span style="position: relative; font-size: 67%; top: -0.8em;">[cf.]</span>](extra/mtour)
+  [[II]](bands/minorthreat2)[<span class="sup">[cf.]</span>](extras/mtour)
   [[III]](bands/minorthreat3)
 
 ## in studio
@@ -26,4 +27,6 @@ layout: default
 
 ## out there
 
-* [other misc. events](events)
+* [other misc. events](extras/events)
+
+<small>[about](extras/about)</small>

@@ -1,7 +1,6 @@
 ---
 title: Events
 layout: default
-permalink: /events/
 ---
 
 ## Ian MacKaye events
