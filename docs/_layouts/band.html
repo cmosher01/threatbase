@@ -18,7 +18,7 @@ layout: default
                 {{ show.venue | default: '[unknown]' }}
             </td>
             <td>
-                {{ show.other_bands | join ', '}}
+                {{ show.other_bands | join '/' }}
             </td>
         </tr>
     {% endfor -%}
