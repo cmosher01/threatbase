@@ -4,22 +4,38 @@ layout: default
 <h1>{{ page.title }}</h1>
 
 <table>
-    {% for i in page.shows -%}
-        {% capture id %}/shows/{{i}}{% endcapture %}
-        {% assign show = site.shows | where: 'id', id | first -%}
+    <thead>
         <tr>
-            <td style="white-space: nowrap">
-                <a href="{{id | relative_url}}">{{ show.show_date | default: id }}</a>
-            </td>
-            <td>
-                {{ show.recorded | upcase }}
-            </td>
-            <td>
-                {{ show.venue | default: '[unknown]' }}
-            </td>
-            <td>
-                {{ show.other_bands | join '/' }}
-            </td>
+            <th>date</th>
+            <th>aud/vid</th>
+            <th>flyer</th>
+            <th>venue</th>
+            <th>other bands</th>
         </tr>
-    {% endfor -%}
+    </thead>
+    <tbody>
+        {% for i in page.shows -%}
+            {% capture id %}/shows/{{i}}{% endcapture %}
+            {% assign show = site.shows | where: 'id', id | first -%}
+            <tr>
+                <td style="white-space: nowrap">
+                    <a href="{{id | relative_url}}">{{ show.show_date | default: id }}</a>
+                </td>
+                <td>
+                    {{ show.recorded | upcase }}
+                </td>
+                <td>
+                    {% if show.images.size > 0 %}
+                        F
+                    {% endif %}
+                </td>
+                <td>
+                    {{ show.venue | default: '[unknown]' }}
+                </td>
+                <td>
+                    {{ show.other_bands | join: '; ' }}
+                </td>
+            </tr>
+        {% endfor -%}
+    </tbody>
 </table>
