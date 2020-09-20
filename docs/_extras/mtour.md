@@ -5,7 +5,7 @@ layout: default
 
 # Minor Threat Tour
 
-This is the original gig schedule I received from Nui Hansgen.
+This is the original gig schedule I received from Nuit Hansgen.
 
   WHEN   |        CITY        |         VENUE          |   Tape?   |                WITH                | have/ask
 -------- | ------------------ | ---------------------- | --------- | ---------------------------------- | --------
